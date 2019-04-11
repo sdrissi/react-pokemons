@@ -1,0 +1,22 @@
+.PokemonList {
+    width: 288px;
+    margin: 0 15px;
+}
+
+.PokemonList__header {
+    text-align: center;
+}
+
+.PokemonList__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.PokemonList__list--wild {
+    justify-content: center;
+    background-color: mediumpurple;
+}
+
+.PokemonList__list--caught {
+    background-color: turquoise;
+}

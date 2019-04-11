@@ -1,0 +1,20 @@
+.Pokemon {
+    display: flex;
+    align-items: flex-start;
+}
+
+.Pokemon__img {
+    width: 96px;
+    height: 96px;
+}
+
+.Pokemon__info {
+    line-height: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.Pokemon__info label {
+    display: inline-block;
+    width: 60px;
+}
